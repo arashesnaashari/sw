@@ -1,6 +1,11 @@
 const casheName = "v1";
 
-const casheAssets = ["index.html", "about.html", "/css/style.css", "main.js"];
+const casheAssets = [
+  "sw/index.html",
+  "sw/about.html",
+  "sw/css/style.css",
+  "sw/main.js",
+];
 
 //call instal event
 self.addEventListener("install", (e) => {
